@@ -211,6 +211,8 @@ The project includes checks for:
 - One-to-one canonical drug mapping checks.
 - National-versus-state suppression reconciliation by canonical drug.
 
+The repository retains `outputs/cpic_name_variant_discovery.csv` as a discovery-only audit trail for reviewed salt, combination, and formulation variants; final results use exact mappings from the versioned crosswalk rather than substring matching.
+
 ## Next steps
 
 - Export final result tables to versioned CSV files and build one national summary figure plus a state ranking figure.
