@@ -1,0 +1,15 @@
+canonical_drug,cms_name_type,cms_name_normalized,match_type,source_or_rationale,active
+abacavir,generic,abacavir sulfate,reviewed_salt_alias,Observed CMS generic; single-ingredient same-moiety abacavir,true
+allopurinol,generic,allopurinol,exact_generic,Observed exact CMS generic,true
+amitriptyline,generic,amitriptyline hcl,reviewed_salt_alias,Observed CMS generic; single-ingredient same-moiety amitriptyline,true
+azathioprine,generic,azathioprine,exact_generic,Observed exact CMS generic,true
+carbamazepine,generic,carbamazepine,exact_generic,Observed exact CMS generic,true
+citalopram,generic,citalopram hydrobromide,reviewed_salt_alias,Observed CMS generic; same-moiety citalopram,true
+clopidogrel,generic,clopidogrel bisulfate,reviewed_salt_alias,Observed CMS generic; same-moiety clopidogrel,true
+escitalopram,generic,escitalopram oxalate,reviewed_salt_alias,Observed CMS generic; same-moiety escitalopram,true
+mercaptopurine,generic,mercaptopurine,exact_generic,Observed exact CMS generic,true
+nortriptyline,generic,nortriptyline hcl,reviewed_salt_alias,Observed CMS generic; same-moiety nortriptyline,true
+sertraline,generic,sertraline hcl,reviewed_salt_alias,Observed CMS generic; same-moiety sertraline,true
+simvastatin,generic,simvastatin,exact_generic,Observed exact CMS generic,true
+tramadol,generic,tramadol hcl,reviewed_salt_alias,Observed CMS generic; single-ingredient same-moiety tramadol,true
+warfarin,generic,warfarin sodium,reviewed_salt_alias,Observed CMS generic; same-moiety warfarin,true
