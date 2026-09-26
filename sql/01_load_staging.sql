@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS stg_partd_geo_drug;
 CREATE TABLE stg_partd_geo_drug AS
 SELECT *
 FROM read_csv_auto(
-        'C:/Users/Owner/Documents/partd-pgx-sql/Medicare Part D Prescribers - by Geography and Drug/Medicare Part D Prescribers - by Geography and Drug/2024/MUP_DPR_RY26_P04_V10_DY24_Geo.csv',
+        'data/raw/MUP_DPR_RY26_P04_V10_DY24_Geo.csv',
         sample_size = -1
     );
 -- Confirm the persistent table has the same expected row count.
