@@ -1,0 +1,41 @@
+﻿candidate_drug,Gnrc_Name,generic_name_norm,Brnd_Name,brand_name_norm,Prscrbr_Geo_Lvl,source_row_count,published_claims,published_30day_fills,published_drug_cost
+abacavir,Abacavir/Dolutegravir/Lamivudi,abacavir/dolutegravir/lamivudi,Triumeq,triumeq,National,1,143131,153154.6,565722001.1
+abacavir,Abacavir Sulfate/Lamivudine,abacavir sulfate/lamivudine,Abacavir-Lamivudine,abacavir-lamivudine,National,1,17348,24469.2,5785643.94
+abacavir,Abacavir Sulfate,abacavir sulfate,Abacavir,abacavir,National,1,16298,21345.5,3054440.46
+abacavir,Abacavir Sulfate/Lamivudine,abacavir sulfate/lamivudine,Epzicom,epzicom,National,1,79,99.0,125646.29
+abacavir,Abacavir/Lamivudine/Zidovudine,abacavir/lamivudine/zidovudine,Trizivir,trizivir,National,1,75,75.0,109370.38
+abacavir,Abacavir Sulfate,abacavir sulfate,Ziagen,ziagen,National,1,23,23.8,12248.24
+amitriptyline,Amitriptyline Hcl,amitriptyline hcl,Amitriptyline Hcl,amitriptyline hcl,National,1,3703146,7009698.9,54698687.54
+amitriptyline,Perphenazine/Amitriptyline Hcl,perphenazine/amitriptyline hcl,Perphenazine-Amitriptyline,perphenazine-amitriptyline,National,1,3570,6762.8,439257.36
+amitriptyline,Amitriptyline/Chlordiazepoxide,amitriptyline/chlordiazepoxide,Chlordiazepoxide-Amitriptyline,chlordiazepoxide-amitriptyline,National,1,3122,4312.7,246546.5
+citalopram,Escitalopram Oxalate,escitalopram oxalate,Escitalopram Oxalate,escitalopram oxalate,National,1,12680299,24633046.1,140944633.5
+citalopram,Citalopram Hydrobromide,citalopram hydrobromide,Citalopram Hbr,citalopram hbr,National,1,6739115,13931521.8,48581143.76
+citalopram,Escitalopram Oxalate,escitalopram oxalate,Lexapro,lexapro,National,1,20260,38039.7,17586853.8
+citalopram,Citalopram Hydrobromide,citalopram hydrobromide,Celexa,celexa,National,1,4196,8369.9,2557095.47
+clopidogrel,Clopidogrel Bisulfate,clopidogrel bisulfate,Clopidogrel,clopidogrel,National,1,13578056,30277042.9,153780620.3
+clopidogrel,Clopidogrel Bisulfate,clopidogrel bisulfate,Plavix,plavix,National,1,12336,26512.8,6207051.05
+codeine,Acetaminophen With Codeine,acetaminophen with codeine,Acetaminophen-Codeine,acetaminophen-codeine,National,1,2301618,2311906.1,32786793.96
+codeine,Butalbit/Acetamin/Caff/Codeine,butalbit/acetamin/caff/codeine,Butalb-Acetaminoph-Caff-Codein,butalb-acetaminoph-caff-codein,National,1,40282,40702.9,4225330.73
+codeine,Codeine Sulfate,codeine sulfate,Codeine Sulfate,codeine sulfate,National,1,14814,15059.0,975101.4
+codeine,Codeine/Butalbital/Asa/Caffein,codeine/butalbital/asa/caffein,Asa-Butalb-Caffeine-Codeine,asa-butalb-caffeine-codeine,National,1,14554,14738.5,1421389.68
+codeine,Codeine/Butalbital/Asa/Caffein,codeine/butalbital/asa/caffein,Ascomp With Codeine,ascomp with codeine,National,1,5500,5560.9,474114.47
+codeine,Promethazine Hcl/Codeine,promethazine hcl/codeine,Promethazine-Codeine,promethazine-codeine,National,1,1142,1144.3,8801.07
+codeine,Codeine Phosphate/Guaifenesin,codeine phosphate/guaifenesin,Codeine-Guaifenesin,codeine-guaifenesin,National,1,223,223.0,1097.38
+codeine,Butalbit/Acetamin/Caff/Codeine,butalbit/acetamin/caff/codeine,Fioricet With Codeine,fioricet with codeine,National,1,168,172.0,191544.69
+codeine,Acetaminophen/Caff/Dihydrocod,acetaminophen/caff/dihydrocod,Acetamin-Caff-Dihydrocodeine,acetamin-caff-dihydrocodeine,National,1,41,41.0,4691.71
+codeine,Codeine/Butalbital/Asa/Caffein,codeine/butalbital/asa/caffein,Butalbital Compound-Codeine,butalbital compound-codeine,National,1,19,19.0,3665.35
+escitalopram,Escitalopram Oxalate,escitalopram oxalate,Escitalopram Oxalate,escitalopram oxalate,National,1,12680299,24633046.1,140944633.5
+escitalopram,Escitalopram Oxalate,escitalopram oxalate,Lexapro,lexapro,National,1,20260,38039.7,17586853.8
+irinotecan,Irinotecan Hcl,irinotecan hcl,Irinotecan Hcl,irinotecan hcl,National,1,1599,1600.5,461703.59
+irinotecan,Irinotecan Liposomal,irinotecan liposomal,Onivyde,onivyde,National,1,167,168.8,2233735.99
+nortriptyline,Nortriptyline Hcl,nortriptyline hcl,Nortriptyline Hcl,nortriptyline hcl,National,1,1279283,2409784.9,19957509.51
+nortriptyline,Nortriptyline Hcl,nortriptyline hcl,Pamelor,pamelor,National,1,295,468.0,1016661.27
+sertraline,Sertraline Hcl,sertraline hcl,Sertraline Hcl,sertraline hcl,National,1,16142248,30157837.8,147487376.8
+sertraline,Sertraline Hcl,sertraline hcl,Zoloft,zoloft,National,1,13447,24983.1,14135080.69
+tramadol,Tramadol Hcl,tramadol hcl,Tramadol Hcl,tramadol hcl,National,1,12935011,13130653.5,88113485.54
+tramadol,Tramadol Hcl/Acetaminophen,tramadol hcl/acetaminophen,Tramadol Hcl-Acetaminophen,tramadol hcl-acetaminophen,National,1,286444,291022.4,3688926.9
+tramadol,Tramadol Hcl,tramadol hcl,Tramadol Hcl Er,tramadol hcl er,National,1,223752,230772.9,15148525.68
+tramadol,Tramadol Hcl/Celecoxib,tramadol hcl/celecoxib,Seglentis,seglentis,National,1,904,911.0,274438.0
+tramadol,Tramadol Hcl,tramadol hcl,Conzip,conzip,National,1,60,76.0,41304.21
+warfarin,Warfarin Sodium,warfarin sodium,Warfarin Sodium,warfarin sodium,National,1,4664402,9497465.5,43714376.0
+warfarin,Warfarin Sodium,warfarin sodium,Jantoven,jantoven,National,1,368941,786544.6,3162907.79
