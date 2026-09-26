@@ -1,18 +1,28 @@
-# Local data and database artifacts
+# Raw CMS source data: downloaded locally, not committed
 data/raw/
+
+# Local DuckDB files
 *.duckdb
 *.duckdb.wal
+*.duckdb.tmp
 
-# Generated results can be recreated from SQL
+# Generated outputs: ignore by default
 outputs/*.csv
 
-# Python artifacts
+# Publish selected final, reproducible result tables
+!outputs/national_primary_results.csv
+!outputs/state_primary_results_compact.csv
+!outputs/suppression_diagnostic.csv
+!outputs/top_primary_cpic_drugs.csv
+
+# Python and notebook artifacts
 __pycache__/
 *.py[cod]
 .venv/
 venv/
+.ipynb_checkpoints/
 
-# Editor/system artifacts
-.vscode/*.log
+# Operating system and editor files
 .DS_Store
 Thumbs.db
+.vscode/*.log
