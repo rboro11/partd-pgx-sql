@@ -150,6 +150,21 @@ A discovery query using `LIKE` identified candidate variants. This query was del
 
 A critical example: substring matching for `citalopram` also returned `escitalopram`, demonstrating why substring matching is inappropriate for production medication identity assignment.
 
+### Retained variant-discovery audit
+
+The repository retains `outputs/cpic_name_variant_discovery.csv` as an auditable discovery artifact. It records National-level CMS drug-name strings returned by the exploratory candidate-variant query, including the raw and normalized generic/brand names, published claims, standardized 30-day fills, and total drug cost.
+
+This file was used to identify potential salt forms, fixed combinations, and formulation-specific products for manual review. Examples include `clopidogrel bisulfate`, `warfarin sodium`, `escitalopram oxalate`, combination analgesics containing codeine or tramadol, and topical fluorouracil products.
+
+The file is **not** a production crosswalk and is not used directly in national or state result calculations. In particular:
+
+- Candidate discovery used substring matching to maximize recall for manual review.
+- Substring matches can produce false positives; for example, searching for `citalopram` also retrieves `escitalopram`.
+- Production matching uses only exact equality between `generic_name_norm` and a pre-reviewed entry in `data/reference/drug_name_crosswalk.csv`.
+- Inclusion, exclusion, and sensitivity-analysis decisions are recorded in `data/reference/cpic_drug_panel.csv` and the reviewed crosswalk—not inferred automatically from the discovery file.
+
+Retaining the discovery audit makes the medication-identity decision process inspectable while preserving a strict separation between exploratory search logic and the final analytical definition.
+
 ### Production crosswalk
 
 The production crosswalk resides in:
